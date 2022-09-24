@@ -37,6 +37,7 @@ const Home = () => {
               border: "none",
               borderRadius: "5px",
               color: "#fff",
+              cursor: "pointer",
             }}
           >
             Get Started
