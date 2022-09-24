@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.menu-items ul {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}
+.menu-items ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.menu-items ul button {
+  background-color: #0077c0;
+  outline: none;
+  border: none;
+  width: 66px;
+  font-size: 9px;
+  font-weight: 600;
+  height: 25px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
