@@ -4,6 +4,7 @@ import socialProof from "../assets/freelancer-area-image/Social Proof.svg";
 import icon1 from "../assets/featureIcon/Icon.svg";
 import icon2 from "../assets/featureIcon/Icon (1).svg";
 import icon3 from "../assets/featureIcon/Icon (2).svg";
+import wireframe from "../assets/wireframes.svg";
 const Home = () => {
   return (
     <div style={{ marginBottom: "10px" }}>
@@ -45,9 +46,11 @@ const Home = () => {
           <img src={freelancerlogo} alt="" width={300} height={350} />
         </div>
       </section>
+
       <section className="socialProofAarea" style={{ marginTop: "10px" }}>
         <img src={socialProof} alt="" style={{ width: "100%" }} />
       </section>
+
       <section
         className="featuers"
         style={{
@@ -125,6 +128,102 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <div
+        className="footer-area"
+        style={{
+          width: "78%",
+          margin: "0 auto",
+          maxWidth: "1500px",
+          marginTop: "30px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <div className="footerImage">
+          <img src={wireframe} alt="" />
+        </div>
+        <div
+          className="footerLists"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "flex-start",
+            alignItems: "flex-start",
+          }}
+        >
+          <h1 style={{ marginLeft: "40px", width: "400px" }}>
+            Wakanda is an easy platform to find talent
+          </h1>
+          <ol
+            style={{
+              listStyle: "none",
+            }}
+          >
+            <li>
+              <span
+                style={{
+                  backgroundColor: "#C7EEFF",
+                  padding: "2%",
+                  borderRadius: "50%",
+                }}
+              >
+                1
+              </span>{" "}
+              Sign in to our website
+            </li>
+            <li style={{ marginTop: "20px" }}>
+              <span
+                style={{
+                  backgroundColor: "#C7EEFF",
+                  padding: "2%",
+                  borderRadius: "50%",
+                }}
+              >
+                2
+              </span>{" "}
+              Fill out neccesary information
+            </li>
+            <li style={{ marginTop: "20px" }}>
+              <span
+                style={{
+                  backgroundColor: "#C7EEFF",
+                  padding: "2%",
+                  borderRadius: "50%",
+                }}
+              >
+                3
+              </span>{" "}
+              Discover thoudsands of freelancers
+            </li>
+            <li style={{ marginTop: "20px" }}>
+              <span
+                style={{
+                  backgroundColor: "#C7EEFF",
+                  padding: "2%",
+                  borderRadius: "50%",
+                }}
+              >
+                4
+              </span>{" "}
+              View freelancer’s profile and hire
+            </li>
+            <li style={{ marginTop: "20px" }}>
+              <span
+                style={{
+                  backgroundColor: "#C7EEFF",
+                  padding: "2%",
+                  borderRadius: "50%",
+                }}
+              >
+                5
+              </span>{" "}
+              Complete payment & it’s time to work!
+            </li>
+          </ol>
+        </div>
+      </div>
     </div>
   );
 };
